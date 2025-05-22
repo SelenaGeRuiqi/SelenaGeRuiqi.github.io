@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Data Scientist | Researcher | Future Mathematician | Cat Person
 
 profile:
   align: right
@@ -27,8 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, I am Selena Ge, a researcher at [Halicioğlu Data Science Institute (HDSI)](https://datascience.ucsd.edu/), [University of California, San Diego (UCSD)](https://ucsd.edu/) Causality lab, under the supervision of [Prof. Biwei Huang](https://biweihuang.com/). I am currently a Master's student of Data Science at UCSD. Before that, I received my Bachelor's degree in Mathematics from [New York University (NYU)](https://nyu.edu/), Shanghai campus.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests include Reinforcement Learning, Diffusion Models, Stochastic Differential Equations, and Causality. I am currently working on several research projects about advancing AI's capacity to uncover latent dynamics and learn causal representations by addressing real-world data complexities and leveraging active interventions. This improves decision-making in Reinforcement Learning, enables more robust Causal Discovery, and enhances the reasoning and control capabilities of large-scale pre-trained models.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->

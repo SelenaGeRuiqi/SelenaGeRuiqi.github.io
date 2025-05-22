@@ -287,8 +287,36 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: year
+  group_by: type, year
   group_order: descending
+  sort_by: year, title
+  order: descending, ascending
+
+  bibliography_list_tag: div
+  bibliography_item_tag: div
+
+  # Define custom entry types
+  entry_types:
+    project:
+      - title
+      - abbr
+      - year
+      - date
+      - advisor
+      - keywords
+      - pdf
+      - slides
+      - note
+    thesis:
+      - title
+      - abbr
+      - year
+      - date
+      - advisor
+      - keywords
+      - pdf
+      - slides
+      - note
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
