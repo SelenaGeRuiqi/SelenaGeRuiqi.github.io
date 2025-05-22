@@ -207,9 +207,13 @@
       {% if thesis contains entry.type %}
         {% if entry.pdf %}
           {% if entry.pdf contains '://' or entry.pdf contains '.github.io' %}
-            <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Paper</a>
+            <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">
+              {%- if entry.pdf_button_text %}{{ entry.pdf_button_text }}{% else %}Paper{% endif -%}
+            </a>
           {% else %}
-            <a href="{{ entry.pdf | prepend: site.baseurl | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Paper</a>
+            <a href="{{ entry.pdf | prepend: site.baseurl | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">
+              {%- if entry.pdf_button_text %}{{ entry.pdf_button_text }}{% else %}Paper{% endif -%}
+            </a>
           {% endif %}
         {% endif %}
         {% if entry.slides %}

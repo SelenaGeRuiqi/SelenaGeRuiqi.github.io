@@ -287,10 +287,10 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: type, year
+  group_by: year
   group_order: descending
-  sort_by: year, title
-  order: descending, ascending
+  sort_by: year,title
+  order: descending,ascending
 
   bibliography_list_tag: div
   bibliography_item_tag: div
@@ -661,14 +661,9 @@ jekyll_get_json:
 
 jsonresume:
   - basics
-  - work
   - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
   - skills
+  - internship
+  - publications
   - languages
   - interests
-  - references
