@@ -1,0 +1,24 @@
+[33m341a987[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Remove unsupported Twitter embed post
+[33m586f139[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge branch 'main' of https://github.com/SelenaGeRuiqi/SelenaGeRuiqi.github.io
+[33m57feaad[m delete post.liquid
+[33mb94c456[m Update post.liquid - remove toc
+[33mf17cfb7[m Update post.liquid again
+[33m113d62c[m Update post.liquid - clean version
+[33mcc485f6[m Update resume.json
+[33m0247041[m update post.liquid
+[33mf5d12d1[m deployment
+[33m68b783a[m update post.liquid
+[33m913c64a[m update Awaky image
+[33m11eab03[m finished version1 on 2025May23
+[33m2c1ade1[m cv page complete
+[33mb710b46[m partially complete cv
+[33m4df8912[m complete About page; Research page in progress
+[33m6c8243c[m update config to debug
+[33m5eeebd4[m customize about page
+[33mba5c163[m disable lighthouse
+[33maa565b5[m Install jupyter and imagemagick in pages.yml
+[33md2c0f49[m upgrade ruby version in pages.yml
+[33m64a3a3b[m create pages.yml to bypass GitHub’s default Pages build system
+[33m40327c5[m Update _config.yml
+[33mf55875d[m fix prettier issue
+[33mf736ca8[m Initial commit
