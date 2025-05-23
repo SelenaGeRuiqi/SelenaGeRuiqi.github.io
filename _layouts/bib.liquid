@@ -205,22 +205,23 @@
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.pdf %}
-        {% if entry.pdf contains '://' or entry.pdf contains '.github.io' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">
-            {%- if entry.pdf_button_text %}{{ entry.pdf_button_text }}{% else %}Paper{% endif -%}
-          </a>
-        {% else %}
-          <a href="{{ entry.pdf | prepend: site.baseurl | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">
-            {%- if entry.pdf_button_text %}{{ entry.pdf_button_text }}{% else %}Paper{% endif -%}
-          </a>
-        {% endif %}
+        {% assign pdf_url = entry.pdf %}
+        {% unless entry.pdf contains '://' or entry.pdf contains '.github.io' %}
+          {% assign pdf_url = entry.pdf | prepend: site.baseurl | relative_url %}
+        {% endunless %}
+        <a href="{{ pdf_url }}" class="btn btn-sm btn-outline-primary my-1" role="button" target="_blank">
+          {{ entry.pdf_button_text | default: 'Paper' }}
+        </a>
       {% endif %}
+
       {% if entry.slides %}
-        {% if entry.slides contains '://' or entry.slides contains '.github.io' %}
-          <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
-        {% else %}
-          <a href="{{ entry.slides | prepend: site.baseurl | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
-        {% endif %}
+        {% assign slides_url = entry.slides %}
+        {% unless entry.slides contains '://' or entry.slides contains '.github.io' %}
+          {% assign slides_url = entry.slides | prepend: site.baseurl | relative_url %}
+        {% endunless %}
+        <a href="{{ slides_url }}" class="btn btn-sm btn-outline-primary my-1" role="button" target="_blank">
+          {{ entry.slides_button_text | default: 'Slides' }}
+        </a>
       {% endif %}
 
       {% if entry.award %}
