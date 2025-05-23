@@ -27,7 +27,7 @@
       "position": "Lead Learning Assistant",
       "startDate": "2021-09-01",
       "endDate": "2022-05-01",
-      "summary": "Facilitated review sessions and workshops for Linear Algebra; recognized for excellent communication and academic support for over 60 students."
+      "summary": "Hosted review sessions for Linear Algebra and Calculus; facilitated workshops and weekly meetings for academic affair fellows."
     }
   ],
   "education": [
@@ -94,7 +94,13 @@
     },
     {
       "name": "Hobbies",
+      "icon": "fa-solid fa-heart",
       "keywords": ["Skating", "Writing", "Dancing", "Traveling", "Yoga", "Reading"]
+    },
+    {
+      "name": "My Cat",
+      "images": ["awaky1.jpg", "awaky2.jpg", "awaky3.jpg"],
+      "description": "My lazy Garfield cat called Awaky cuz it sleeps the whole day"
     }
   ],
   "publications": [
