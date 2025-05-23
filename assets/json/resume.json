@@ -99,7 +99,7 @@
     },
     {
       "name": "My Cat",
-      "images": ["awaky1.jpg", "awaky2.jpg", "awaky3.jpg"],
+      "images": ["awaky1.JPG", "awaky2.jpg", "awaky3.jpg"],
       "description": "My lazy Garfield cat called Awaky cuz it sleeps the whole day"
     }
   ],
